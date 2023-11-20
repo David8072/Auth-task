@@ -22,7 +22,7 @@ async function InsertVerifyUser(name, email, password) {
         });
 
 
-        const activationLink = `https://auth-back-tapn.onrender.com/signin/${token}`;
+        const activationLink = `https://authentication-r9jf.onrender.com/signin/${token}`;
         const content = `<h4> hi, there </h4>
         <h5> Welcome to the app </h5>
         <p> Thankyou for signing up. Click on the below link to activate</p>
